@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Preahvihear;
+}
+
+
+#nav {
+    background-color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+
+}
+#nav ul li {
+    list-style: none;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#nav ul#menu li {
+    float: left;
+    border-radius: 8px;
+}
+#nav ul.right li {
+    float: right;
+}
+#nav ul.right li img {
+    height: 30px;
+}
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav ul li img {
+    height: 40px;
+    
+}
+
+.fonte {
+    font-family: Bangers;
+    font-size: 60px;
+}
+
+
+.container {
+    width: 1140px;
+    margin: auto;
+    max-width: 100%;
+
+}
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.blue {
+    background-color: rgb(26, 81, 235);
+}
+
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+
+section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.col-1 {width: 8.33%; float: left; padding-right: 5px;}
+.col-2  {width: 16.66%; float: left; padding-right:5;}
+.col-3 {width: 25%; float: left; padding-right: 5px;}
+.col-4 {width: 33.33%; float: left; padding-right: 5px;}
+.col-5 {width: 41.66%; float: left; padding-right: 5px;}
+.col-6 {width: 50%; float: left; padding-right: 5px;}
+.col-7 {width: 58.33%; float: left; padding-right: 5px;}
+.col-8 {width: 66.66%; float: left; padding-right: 5px;}
+.col-9 {width: 75%; float: left; padding-right: 5px;}
+.col-10 {width: 83.33%; float: left; padding-right: 5px;}
+.col-11 {width: 91.66%; float: left; padding-right: 5px;}
+.col-12 {width: 100%; float: left; padding-right: 5px;}
+
+:root {
+    --fonte-principal: '' ;                                                                                                    
+}
+
+body {
+    font-family: var(--fonte-principal), cursive;
+}
+
+#aranhas img {
+   width: 200px;
+}
+
+#aranhas h6 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px 8px 8px 8px;
+    font-weight: normal;
+    padding: 5px;
+}
+#aranhas a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+img {
+    width: 100%;
+}
+
+img.img_ajuste {
+    object-fit: cover;
+    object-position: top;
+    width: 500px;
+    padding: 0%;
+    height: 500px;
+}
+
+img.filmes {
+    height: 300px;
+}
+
+.black {
+    background-color: rgb(0, 0, 0);
+}
+.black h1 {
+    color: white;
+}
+.black h2 {
+    color: white;
+
+}
+.black h3 {
+    color: white;
+}
+p {
+    font-size: large;
+}
+
+
+.filmes h2 {
+    text-align: center;
+}
+
+
+.filme img {
+    height: 300px;
+    object-fit: cover;
+}
+.texto {
+    padding-top: 20px;
+   font-family: 'Roboto';
+   text-align: left;
+   font-size: 28px
+    
+}
+.filmes h3 {
+    padding: 15px;
+    padding-top: 0px;
+}
+.imagem {
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#foot h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Roboto;
+}
+#foot h3 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: Roboto;
+}
+.filme h3 {
+    text-align: center;
+}
+
+.anim img {
+    transition: all .5s ease;
+}
+
+.anim:hover img {
+    transform: scale(1.2);
+    
+} 
+
+#nav ul li a {
+    color: red;
+    text-decoration: none;
+}
